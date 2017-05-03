@@ -1,0 +1,18 @@
+{
+  "name": "joik",
+  "version": "1.0.0",
+  "description": "A place for storing Joi schemas and avoid circular dependencies issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && lab --verbose --colors --assert code -r console -o stdout -r html -o coverage/coverage.html -r lcov -o coverage/lcov.info"
+  },
+  "keywords": ["joi", "store", "rule", "schema", "circular", "dependence"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint": "^3.19.0",
+    "standard": "^10.0.2",
+    "lab": "^13.0.4"
+  }
+}
