@@ -9,6 +9,11 @@
   "keywords": ["joi", "store", "rule", "schema", "circular", "dependence"],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhoff/node-joik/issues"
+  },
+  "repository": "alanhoff/node-joik",
+  "homepage": "https://github.com/alanhoff/node-joik",
   "devDependencies": {
     "code": "^4.0.0",
     "eslint": "^3.19.0",

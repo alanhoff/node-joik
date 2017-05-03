@@ -46,7 +46,7 @@ joik.schema('user-reply', (Joi, store) => Joi.object({
 const schema = joik.schema('user-reply')
 ```
 
-You since build methods returns a Joi object you can easily compose complex
+Since build methods returns a Joi object you can easily compose complex
 schemas using Joi methods:
 
 ```javascript
